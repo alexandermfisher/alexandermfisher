@@ -27,3 +27,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           directory: assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
