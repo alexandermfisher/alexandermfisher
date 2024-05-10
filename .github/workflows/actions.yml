@@ -1,13 +1,13 @@
-name: Generate and Push Files
+# Example workflow to generate and push files, and upload artifacts with a specific upload path
+name: Generate, Push, and Upload Artifacts
 
 on:
-  # Run the workflow on every push to the main branch
   push:
     branches:
       - main
 
 jobs:
-  generate_and_push:
+  generate_push_and_upload:
     runs-on: ubuntu-latest
     
     steps:
@@ -20,7 +20,20 @@ jobs:
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Add this step after generating the SVG files
+      # Step 2: Move generated SVG files to the assets directory if they exist
+      - name: Move SVG files to assets directory
+        run: |
+          mkdir -p assets
+          mv assets/* assets/
+      
+      # Step 3: Commit and push changes to the main branch
+      - name: Commit and push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+
+      # Step 4: Upload generated SVG files as artifacts with a specific upload path
       - name: Upload SVG files as artifacts
         uses: actions/upload-artifact@v2
         with:
