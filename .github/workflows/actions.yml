@@ -24,12 +24,13 @@ jobs:
       - name: Commit and push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
           branch: main
 
       # Step 3: Upload generated SVG files as artifacts with a specific upload path
       - name: Upload SVG files as artifacts
         uses: actions/upload-artifact@v2
         with:
+          github_user_name: ${{ github.repository_owner }}
           name: generated-svgs
           path: assets/
