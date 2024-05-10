@@ -17,34 +17,5 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            generated/github-contribution-grid-snake.svg
-            generated/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # Step 2: Upload the generated SVG files as an artifact
-      - name: Upload SVG files
-        uses: actions/upload-artifact@v2
-        with:
-          name: generated-svgs
-          path: generated
-
-      # Step 3: Checkout the main branch
-      - name: Checkout main branch
-        uses: actions/checkout@v2
-        with:
-          ref: main
-
-      # Step 4: Create the assets directory if it doesn't exist
-      - name: Create assets directory
-        run: mkdir -p assets
-      
-      # Step 5: Move the generated SVG files to the assets directory if they exist
-      - name: Move SVG files to assets directory
-        run: |
-          if [ -n "$(ls -A generated)" ]; then mv generated/* assets/; fi
-
-      # Step 6: Commit and push changes to the main branch
-      - name: Commit and push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
