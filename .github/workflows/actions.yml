@@ -19,21 +19,15 @@ jobs:
           outputs: |
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # Step 2: Move generated SVG files to the assets directory if they exist
-      - name: Move SVG files to assets directory
-        run: |
-          mkdir -p assets
-          mv assets/* assets/
       
-      # Step 3: Commit and push changes to the main branch
+      # Step 2: Commit and push changes to the main branch
       - name: Commit and push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
 
-      # Step 4: Upload generated SVG files as artifacts with a specific upload path
+      # Step 3: Upload generated SVG files as artifacts with a specific upload path
       - name: Upload SVG files as artifacts
         uses: actions/upload-artifact@v2
         with:
