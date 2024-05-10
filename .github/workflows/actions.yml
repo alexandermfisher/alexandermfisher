@@ -37,9 +37,10 @@ jobs:
       - name: Create assets directory
         run: mkdir -p assets
       
-      # Step 5: Move the generated SVG files to the assets directory
+      # Step 5: Move the generated SVG files to the assets directory if they exist
       - name: Move SVG files to assets directory
-        run: mv generated/* assets/
+        run: |
+          if [ -n "$(ls -A generated)" ]; then mv generated/* assets/; fi
 
       # Step 6: Commit and push changes to the main branch
       - name: Commit and push changes
