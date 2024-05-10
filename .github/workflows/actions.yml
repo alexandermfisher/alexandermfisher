@@ -8,7 +8,7 @@ on:
   # allows to manually run the job at any time
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # run on every push on the main branch
   push:
     branches:
     - main
@@ -30,20 +30,21 @@ jobs:
             generated/github-contribution-grid-snake.svg
             generated/github-contribution-grid-snake-dark.svg?palette=github-dark
           
-      # Create the assets folder if it doesn't exist
-      - name: Create assets folder
-        run: mkdir -p assets
+      # Create the main/assets folder if it doesn't exist
+      - name: Create main/assets folder
+        run: mkdir -p main/assets
       
-      # Copy generated SVGs to the assets folder
-      - name: Copy generated SVGs to assets folder
-        run: cp generated/* assets/
+      # Copy generated SVGs to the main/assets folder
+      - name: Copy generated SVGs to main/assets folder
+        run: cp generated/* main/assets/
       
-      # push the content of assets to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push generated SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: assets
+      # Commit and push the changes to the main branch
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add main/assets/*
+          git commit -m "Update generated SVGs"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
