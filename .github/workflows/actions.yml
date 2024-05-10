@@ -48,6 +48,10 @@ jobs:
           name: generated-svgs
           path: generated
       
-      # Move the generated SVG files to the assets folder in the main branch
-      - name: Move SVG files to assets folder
-        run: mv generated/* assets/
+      # Create the assets directory if it doesn't exist
+      - name: Create assets directory
+        run: mkdir -p alexandermfisher/assets
+      
+      # Move the generated SVG files to the assets directory in the main branch
+      - name: Move SVG files to assets directory
+        run: mv generated/* alexandermfisher/assets/
