@@ -13,12 +13,12 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 ---
 
 <details>
-  <summary style="font-weight: bold;"> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="16"> Languages and Tools:
+  <summary> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="16"> <b>Languages and Tools:</b>
   </summary>
 
   </br>
   
-  <div style="margin-left: 20px; margin-top: 10px; margin-bottom: 20px">
+  &emsp; <div>
 
   ![C](https://img.shields.io/badge/C%20-%232370ED.svg?style=for-the-badge&logo=c&logoColor=white)
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -60,7 +60,7 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 </br>
 
 <details>
-  <summary style="font-weight: bold;"> 🔥 GitHub Stats:
+  <summary> 🔥 <b>GitHub Stats:</b>
   </summary>
 
   </br>
