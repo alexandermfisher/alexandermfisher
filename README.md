@@ -6,9 +6,9 @@
 
 ### <picture><img src = "assets/developer.gif" width = 40px></picture> **About me:**
 
-Welcome to my github home page. I am currently completing a MSc Computer Science at University of Brisol, UK and have a background in (BEng) Engineering Mathematics. I am passionate about programming and enjoy expanding my understanding and knowledge in computer science. 
+Welcome to my github home page. I am currently completing a **MSc Computer Science** at University of Brisol, UK and have a background in **(BEng) Engineering Mathematics**. I am passionate about programming and enjoy expanding my understanding and knowledge in the world of computer science! 
 
->For a more information please visit my [GitHub Page]().
+>For more info. visit my [GitHub Page]().
 
 ---
 
