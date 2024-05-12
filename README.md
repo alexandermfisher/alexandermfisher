@@ -4,7 +4,7 @@
   <img width = "100%" src="assets/github-header.png" alt="Header">
 </div>
 
-## <picture><img src = "assets/developer.gif" width = 50px></picture> **About me**
+### <picture><img src = "assets/developer.gif" width = 40px></picture> **About me**
 
 Welcome to my github home page. I am currently completing a MSc Computer Science at University of Brisol, UK and have a background in (BEng) Engineering Mathematics. I am passionate about programming and enjoy expanding my understanding and knowledge in computer science. 
 
@@ -13,7 +13,7 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 ---
 
 <details>
-  <summary style="font-weight: bold;"> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="16"> Languages and Tools:
+  <summary> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="16"> <b>Languages and Tools</b>:
   </summary>
 
   
@@ -56,10 +56,10 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 
 </details>
 
----
+<br>
 
 <details>
-  <summary style="font-weight: bold;"> 🔥 GitHub Stats:
+  <summary> 🔥 <b>GitHub Stats:</b>
   </summary>
 
   <div style="margin-left: 20px; margin-top: 10px; margin-bottom: 20px">
@@ -73,10 +73,10 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
   </div>
 </details>
 
----
+<br>
 
 <details>
-  <summary style="font-weight: bold;"> <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="50"> <b> Let's Connect!</b>:
+  <summary style="font-weight: bold;"> <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="40"> <b> Let's Connect!</b>:
   </summary>
 
   <div style="margin-left: 20px; margin-top: 10px; margin-bottom: 20px">
