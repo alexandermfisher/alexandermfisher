@@ -4,10 +4,10 @@
   <img width = "100%" src="assets/github-header.png" alt="Header">
 </div>
 
----
+</br> 
 
 <details>
-  <summary> <img src = "assets/developer.gif" width = 40px> <b>About Me:</b></summary>
+  <summary> <img src = "assets/developer.gif" width = 30px> <b>About Me:</b></summary>
 
   </br>
   Welcome to my github home page. I am currently completing a <b>MSc Computer Science</b> at University of Brisol, UK and have a background in <b>(BEng) Engineering Mathematics</b>. 
