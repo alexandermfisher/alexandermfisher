@@ -4,7 +4,7 @@
   <img width = "100%" src="assets/github-header.png" alt="Header">
 </div>
 
-### <picture><img src = "assets/developer.gif" width = 40px></picture> **About me**
+### <picture><img src = "assets/developer.gif" width = 40px></picture> **About me:**
 
 Welcome to my github home page. I am currently completing a MSc Computer Science at University of Brisol, UK and have a background in (BEng) Engineering Mathematics. I am passionate about programming and enjoy expanding my understanding and knowledge in computer science. 
 
@@ -18,9 +18,9 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 
   </br>
   
-  &emsp; <div>
+  <div>
 
-  ![C](https://img.shields.io/badge/C%20-%232370ED.svg?style=for-the-badge&logo=c&logoColor=white)
+  ![C](https://img.shields.io/badge/C%20-%232370ED.svg?style=for-the-badge&logo=c&logoColor=white) 
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
   ![Python](https://img.shields.io/badge/Python%20-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
   ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
@@ -60,7 +60,7 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 </br>
 
 <details>
-  <summary> 🔥 <b>GitHub Stats:</b>
+  <summary> 🔥 <b>GitHub Statistics:</b>
   </summary>
 
   </br>
@@ -79,7 +79,7 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
 </br>
 
 <details>
-  <summary style="font-weight: bold;"> <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="40"> <b> Let's Connect!</b>:
+  <summary style="font-weight: bold;"> <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="40"> <b> Let's Connect:</b>
   </summary>
 
   </br>
@@ -94,7 +94,6 @@ Welcome to my github home page. I am currently completing a MSc Computer Science
   <a href="https://www.linkedin.com/in/alexander-m-fisher/">
       ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
   </a>
-
 
   </div>
 </details>
