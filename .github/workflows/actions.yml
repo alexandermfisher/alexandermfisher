@@ -21,7 +21,15 @@ jobs:
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - run: |
+      # Step 2: Check if there are changes
+      - name: Check for changes
+        id: git-check
+        run: echo ::set-output name=changed::$(git diff --quiet || echo "true")
+
+      # Step 3: Commit and push changes if there are any
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
