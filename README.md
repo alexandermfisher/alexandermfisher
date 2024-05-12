@@ -4,13 +4,22 @@
   <img width = "100%" src="assets/github-header.png" alt="Header">
 </div>
 
-### <picture><img src = "assets/developer.gif" width = 40px></picture> **About me:**
-
-Welcome to my github home page. I am currently completing a **MSc Computer Science** at University of Brisol, UK and have a background in **(BEng) Engineering Mathematics**. I am passionate about programming and enjoy expanding my understanding and knowledge in the world of computer science! 
-
->For more info. visit my [GitHub Page]().
-
 ---
+
+<details>
+  <summary> <img src = "assets/developer.gif" width = 40px> <b>About Me:</b></summary>
+
+  </br>
+  Welcome to my github home page. I am currently completing a <b>MSc Computer Science</b> at University of Brisol, UK and have a background in <b>(BEng) Engineering Mathematics</b>. 
+  I am passionate about programming and enjoy expanding my understanding   and knowledge in the world of computer science! 
+  
+  &nbsp;
+  
+  >For more info. visit my [GitHub Page]().
+
+</details>
+
+</br>
 
 <details>
   <summary> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="16"> <b>Languages and Tools:</b>
